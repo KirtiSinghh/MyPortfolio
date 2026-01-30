@@ -20,7 +20,7 @@ export default function Home() {
       <Header className="header">
         <Menu theme="dark" mode="horizontal" style={{ background: "#161b22" }}>
           <Menu.Item className={styles.headerLink} style={{ fontSize: "25px", background: "black" }}>
-            Kirti...
+            Kirti..
           </Menu.Item>
           {["intro", "about", "works", "contact"].map((section) => (
             <Menu.Item key={section} className={styles.headerLink}>
